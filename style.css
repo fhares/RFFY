@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+   font-family: "Montserrat", sans-serif;
+   background-image: url(wp9445133.webp);
+}
+
+nav {
+    background:#0044ff;
+}
+
+.container {
+    background-color: rgb(255, 255, 255), 255;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    gap: 20px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    
+}
+
+marquee {
+    color: #ffffff;
+    width: 50%;
+    text-shadow:#0044ff 50px;
+}
+
+.content {
+    width: 100%;
+    height: 42vh;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background: #356c8b;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    height: 60px;
+    width: 400px;
+}
+
+button {
+    background: #0044ff;
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: #eaeaea;
+    border-radius: 6px;
+}

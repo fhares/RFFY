@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+   font-family: "Montserrat", sans-serif;
+   background-image: url(wp9445133.webp);
+}
+
+.container {
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.content-about {
+    width: 800px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
